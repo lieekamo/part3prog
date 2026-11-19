@@ -38,7 +38,7 @@ public class Message {
         this(generateID(), nextMessageNumber++, recipient, text);
     }
 
-    // Constructor that lets tests supply the ID and number
+    // Constructor 
     public Message(String messageID, int messageNumber, String recipient, String text) {
         this.messageID = messageID;
         this.messageNumber = messageNumber;
@@ -58,7 +58,7 @@ public class Message {
     }
 
     // ------------------------------------------------------------------
-    // Part 2 methods
+    // Part 2 methods:action
     // ------------------------------------------------------------------
 
     public boolean checkMessageID() {
