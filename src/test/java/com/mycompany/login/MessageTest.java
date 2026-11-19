@@ -32,11 +32,11 @@ public class MessageTest {
         Message.resetAll();
         Message.setSender("Developer");
 
-        m1 = new Message("1000000001", 0, "+27834557896", T1);   // Sent
-        m2 = new Message("1000000002", 1, "+27838884567", T2);   // Stored
-        m3 = new Message("1000000003", 2, "+27834484567", T3);   // Disregard
-        m4 = new Message("1000000004", 3, "0838884567", T4);     // Sent
-        m5 = new Message("1000000005", 4, "+27838884567", T5);   // Stored
+        m1 = new Message("1000000001", 0, "+27834557896", T1);   
+        m2 = new Message("1000000002", 1, "+27838884567", T2);   
+        m3 = new Message("1000000003", 2, "+27834484567", T3);   
+        m4 = new Message("1000000004", 3, "0838884567", T4);     
+        m5 = new Message("1000000005", 4, "+27838884567", T5);   
 
         m1.sentMessage(1);
         m2.sentMessage(3);
@@ -50,7 +50,7 @@ public class MessageTest {
         Files.deleteIfExists(TEST_FILE);
     }
 
-    // ---------- Part 3  ----------
+    // ---------- Part3  ----------
 
     @Test
     public void testSentMessagesArrayPopulated() {
