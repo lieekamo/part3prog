@@ -82,7 +82,7 @@ public class Message {
         return "Message exceeds 250 characters by " + over + ", please reduce the size.";
     }
 
-    // First two digits of ID : message number : FIRSTWORD + LASTWORD (uppercase)
+    // First two digits of ID : message number : FIRSTWORD + LASTWORD 
     public String createMessageHash() {
         String[] words = text.trim().split("\\s+");
         String first = "";
@@ -143,7 +143,7 @@ public class Message {
     }
 
     // ------------------------------------------------------------------
-    // JSON storage (Gson)
+    // JSON storage 
     // ------------------------------------------------------------------
 
     // Adds this message to the stored array and saves the whole array to the JSON file
