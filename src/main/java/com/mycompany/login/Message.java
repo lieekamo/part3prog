@@ -230,7 +230,7 @@ public class Message {
         return "Message ID not found.";
     }
 
-    // d. All messages sent or stored for one recipient
+    //  All messages sent or stored for one recipient
     public static List<String> searchByRecipient(String recipient) {
         List<String> found = new ArrayList<>();
         for (Message m : storedMessages) {
@@ -263,7 +263,7 @@ public class Message {
         return "Message hash not found.";
     }
 
-    // f. Report with the full details of the sent and stored messages
+    // f. Report with the full details of the sent 
     public static String displayReport() {
         StringBuilder sb = new StringBuilder();
         sb.append("===== SENT MESSAGES =====\n");
@@ -305,7 +305,7 @@ public class Message {
     public static void setSender(String name) { currentSender = name; }
     public static void setStoragePath(Path path) { jsonFile = path; }
 
-    // Empties every array (used by the unit tests)
+    // Empties every array 
     public static void resetAll() {
         sentMessages.clear();
         disregardedMessages.clear();
