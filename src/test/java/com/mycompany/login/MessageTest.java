@@ -28,7 +28,7 @@ public class MessageTest {
     @BeforeEach
     public void setUp() throws IOException {
         Files.deleteIfExists(TEST_FILE);
-        Message.setStoragePath(TEST_FILE);   // never touch the real messages.json
+        Message.setStoragePath(TEST_FILE);   
         Message.resetAll();
         Message.setSender("Developer");
 
@@ -171,7 +171,7 @@ public class MessageTest {
     }
 }
 
-// Reference list (alphabetical)
+// Reference list 
 
 //Chacon, S. and Straub, B., 2014. Git branching: Basic branching and merging. [online] Available at: https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging [Accessed 17 November 2026].
 
