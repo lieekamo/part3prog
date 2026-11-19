@@ -117,7 +117,7 @@ public class Login {
         return "Username or password incorrect, please try again.";
     }
 }    
-//referencing
+//reference
 //Deitel, P.J. and Deitel, H.M., 2016. Java: How to program. 10th ed. Boston: Pearson
 //Oracle, 2024. Class Pattern. [online] Available at:
 //<https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html>
